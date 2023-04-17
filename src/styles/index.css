@@ -1,12 +1,12 @@
 
-/* 
-
-    You can write your own styles here...
+ul {
+    max-width: 700px;
+    border: 1px solid darkgray;
+    background-color: lightgray;
+}
+.container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
